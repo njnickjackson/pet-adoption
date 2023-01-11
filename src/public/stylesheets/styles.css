@@ -1,0 +1,78 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: rgb(177, 222, 177);
+    box-sizing: border-box;
+  }
+  
+  a {
+    color: #2d6981;
+  }
+
+  .petList {
+    display: flex;
+  }
+
+  .container {
+    display: flex;
+    margin-bottom: 2em;
+    margin-right: 2em;
+  }
+
+  .petImage {
+    max-width: 100%;
+    min-width: 200px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 1em;
+  }
+
+  .petLinks {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+  }
+
+  .petButton {
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    background-color: rgb(154, 130, 177);
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+
+  .petImageDetail {
+    max-width: 100%;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .petViewDescription {
+    margin-bottom: 2em;
+  }
+
+  .petLabel {
+    margin-bottom: 1em;
+  }
+
+  .editButton {
+    margin-bottom: 1em;
+  }
+
+  .backEdit {
+    margin-top: 0.5em;
+  }
+
+  .deleteButton {
+    background-color: rgb(123, 194, 217);
+  }
+
+  .addEdit {
+    margin-top: 1.5em;
+  }
+

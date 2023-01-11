@@ -1,0 +1,7 @@
+{{#with foundPet}}
+    <img class="petImageDetail" src={{imgUrl}} alt="{{description}}"/>
+    <h1>{{name}}</h1>
+    <p class="petViewDescription">{{description}}</p>
+    <a class="petButton" href="/pets">Back</a>
+    <a class="petButton" href="/pets/edit/{{petId}}">Edit Pet</a>
+{{/with}}
